@@ -1,0 +1,37 @@
+[type]_[category]_(direction)_(open/closed)_(streetDirection)_(islandSize)_(item)
+
+Types:
+g -> Grass
+s -> Soil
+w -> Water
+
+Category
+c -> Coast
+l -> Land
+s -> Street
+p -> Prop
+i -> Island
+
+Directions
+nw
+n
+ne
+e
+se
+s
+sw
+w
+
+Open/Closed
+o -> Open (coast angle is 270*)
+c -> Closed (coast angle is 90*)
+
+Street Directions
+n
+e
+s
+w
+
+Island Size
+l -> large
+s -> small

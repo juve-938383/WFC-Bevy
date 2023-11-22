@@ -20,3 +20,7 @@ might be expected to look like.
 \
 \
 Tileset from Kenney's [Pixel Shmup](https://kenney.nl/assets/pixel-shmup) asset pack. 
+\
+Below is a video of the algorithm running:
+
+[![WFC](https://img.youtube.com/vi/HuzOiQUfrUU/maxresdefault.jpg)](https://youtu.be/HuzOiQUfrUU)

@@ -258,17 +258,17 @@ pub mod config {
         300, //S2
         60, //S_C_E
         60, //S_C_N
-        2, //S_C_NE_C
-        2, //S_C_NE_O
-        2, //S_C_NW_C
-        2, //S_C_NW_O
+        10, //S_C_NE_C
+        10, //S_C_NE_O
+        10, //S_C_NW_C
+        10, //S_C_NW_O
         60, //S_C_S
-        2, //S_C_SE_C
-        2, //S_C_SE_O
-        2, //S_C_SW_C
-        2, //S_C_SW_O
+        10, //S_C_SE_C
+        10, //S_C_SE_O
+        10, //S_C_SW_C
+        10, //S_C_SW_O
         60, //S_C_W
-        2, //S_I_L
+        10, //S_I_L
         1, //S_I_S
         20, //S_P_CABIN
         6, //S_P_FLAG

@@ -49,6 +49,8 @@ pub fn wave_function_collapse(
         }
 
     }
+    //Uncomment this line for automatic map reset.
+    //else{reset(&mut tilemap_layout);}
 
 }
 

@@ -23,7 +23,7 @@ impl Default for TilemapLayout{
 impl TilemapLayout{
     pub fn initialize_tilemap(&mut self){
         let map_size: i32 = MAP_WIDTH * MAP_HEIGHT;
-        for i: i32 in 0..map_size{
+        for i in 0..map_size{
             let x: i32 = i % MAP_WIDTH;
             let y: i32 = i / MAP_WIDTH;
             let cell = Cell{
@@ -45,7 +45,7 @@ impl TilemapLayout{
     pub fn get_min_entropy(&self) -> (i32, usize){
         let mut min_entropy: i32 = 80;
         let mut min_index: usize = 0;
-        for i: usize in 0..self.cells.len(){
+        for i in 0..self.cells.len(){
             let cell_entropy: i32 = self.cells[i].entropy;
             let final_tile: usize = self.cells[i].final_tile;
             if cell_entropy < min_entropy {
